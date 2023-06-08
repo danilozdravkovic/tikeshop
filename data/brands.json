@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"Adidas",
+        "value":"adidas"
+    },
+    {
+        "id":2,
+        "name":"Nike",
+        "value":"nike"
+    },
+    {
+        "id":3,
+        "name":"Reebok",
+        "value":"reebok"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"Adidas",
+        "text":"Obuj adidas patike,i spreman si za akciju!",
+        "description":"Adidas je nemački proizvodjač sportske opreme.Adidas je mala kompanija koja proizvodi patike.Logo adidasa predstavlja tri paralelne linije.",
+        "img":{
+            "src":"adidas.jpg",
+            "alt":"Adidas"
+            }
+    },
+    {
+        "id":2,
+        "name":"Nike",
+        "text":"Just Do It!",
+        "description":"Nike je američka multinacionalna korporacija koja je najveći distributer patika i sporstke opreme",
+        "img":{
+            "src":"nike.jpg",
+            "alt":"Nike"
+            }
+    },
+    {
+        "id":3,
+        "name":"Reebok",
+        "text":"Reebok International Ltd!",
+        "description":"Reebok je globalni proizvodjač sportske opreme.Reebok proizvodi i distribuira artikle za fizičku kondiciju i sport.",
+        "img":{
+            "src":"reebok.jpg",
+            "alt":"Reebok"
+            }
+    }
+]

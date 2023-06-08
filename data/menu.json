@@ -1,0 +1,22 @@
+[
+    {
+        "href":"index.html",
+        "name":"Home"
+    },
+    {
+        "href":"shop.html",
+        "name":"Prodavnica"
+    },
+    {
+        "href":"contact.html",
+        "name":"Kontakt"
+    },
+    {
+        "href":"author.html",
+        "name":"Autor"
+    },
+    {
+        "href":"cart.html",
+        "name":"<i class='fas fa-shopping-cart'><div id='counter'></div></i>"
+    }
+]

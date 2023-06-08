@@ -1,0 +1,209 @@
+[
+    {
+        "id":1,
+        "name":"PATIKE NIKE AIR MAX COMMAND M",
+        "price":{
+        "new":99.99,
+        "old":120
+        },
+        "img":{
+        "src":"nike1.jpg",
+        "alt":"Nike air max"
+        },
+        "brand":"nike"
+    },
+    {
+        "id":2,
+        "name":"PATIKE NIKE AIR MAX COMMAND LEATHER M",
+        "price":{
+        "new":150.99,
+        "old":170
+        },
+        "img":{
+        "src":"nike2.jpg",
+        "alt":"Nike air max leather m"
+        },
+        "brand":"nike"
+
+    },
+    {
+        "id":3,
+        "name":"PATIKE NIKE AIR ZOOM STRUCTURE 24 M",
+        "price":{
+        "new":50,
+        "old":100
+        },
+        "img":{
+        "src":"nike3.jpg",
+        "alt":"Nike air zoom"
+        },
+        "brand":"nike"
+
+    },
+    {
+        "id":4,
+        "name":"PATIKE NIKE AIR ZOOM PEGASUS M",
+        "price":{
+        "new":300.99,
+        "old":350.99
+        },
+        "img":{
+        "src":"nike4.jpg",
+        "alt":"Nike air zoom"
+        },
+        "brand":"nike"
+
+    },
+    {
+        "id":5,
+        "name":"PATIKE NIKE PATH WNTR M",
+        "price":{
+        "new":100,
+        "old":120
+        },
+        "img":{
+        "src":"nike5.jpg",
+        "alt":"Nike path wntr"
+        },
+        "brand":"nike"
+
+    },
+    {
+        "id":6,
+        "name":"CIPELE TERREX AGRAVIC M",
+        "price":{
+        "new":180.50,
+        "old":200
+        },
+        "img":{
+        "src":"adidas1.jpg",
+        "alt":"Cipele terrex adidas"
+        },
+        "brand":"adidas"
+
+    },
+    {
+        "id":7,
+        "name":"PATIKE SUPERNOVA + M M",
+        "price":{
+        "new":60,
+        "old":100.99
+        },
+        "img":{
+        "src":"adidas2.jpg",
+        "alt":"Supernova adidas"
+        },
+        "brand":"adidas"
+
+    },
+    {
+        "id":8,
+        "name":"KOPACKE NEMEZIZ 19.2 FG M",
+        "price":{
+        "new":250,
+        "old":279.99
+        },
+        "img":{
+        "src":"adidas3.jpg",
+        "alt":"Kopacke adidas"
+        },
+        "brand":"adidas"
+
+    },
+    {
+        "id":9,
+        "name":"CIPELE TERREX TRAILMAKER HIGH C.RDY K GG",
+        "price":{
+        "new":100,
+        "old":115
+        },
+        "img":{
+        "src":"adidas4.jpg",
+        "alt":"Cipele terrex trailmaker"
+        },
+        "brand":"adidas"
+
+    },
+    {
+        "id":10,
+        "name":"PATIKE D.O.N. ISSUE 3 M",
+        "price":{
+        "new":180.50,
+        "old":200
+        },
+        "img":{
+        "src":"adidas5.jpg",
+        "alt":"Patike D.O.N."
+        },
+        "brand":"adidas"
+
+    },
+    {
+        "id":11,
+        "name":"PATIKE ASTRORIDE TRAIL GTX 2.0 M",
+        "price":{
+            "new":115.99,
+            "old":150
+        },
+        "img":{
+        "src":"reebok1.jpg",
+        "alt":"Patike Astroride"
+        },
+        "brand":"reebok"
+
+    },
+    {
+        "id":12,
+        "name":"PATIKE RIDGERIDER 5 GTX M",
+        "price":{
+        "new":170,
+        "old":200
+        },
+        "img":{
+        "src":"reebok2.jpg",
+        "alt":"Patike Ridgerider"
+        },
+        "brand":"reebok"
+
+    },
+    {
+        "id":13,
+        "name":"PATIKE REEBOK ROYAL GLIDE LX M",
+        "price":{
+        "new":50.99,
+        "old":70
+        },
+        "img":{
+        "src":"reebok3.jpg",
+        "alt":"Patike Reebok Royal"
+        },
+        "brand":"reebok"
+
+    },
+    {
+        "id":14,
+        "name":"PATIKE ASTRORIDE TRAIL GTX 2.0 M",
+        "price":{
+        "new":225.59,
+        "old":240.99
+        },
+        "img":{
+        "src":"reebok4.jpg",
+        "alt":"Patike Astroride Trail"
+        },
+        "brand":"reebok"
+    },
+    {
+        "id":15,
+        "name":"PATIKE REEBOK ROYAL GLIDE RPLCLP W",
+        "price":{
+        "new":160,
+        "old":200
+        },
+        "img":{
+        "src":"reebok5.jpg",
+        "alt":"Patike Astroride Royal Glide"
+        },
+        "brand":"reebok"
+    }
+]

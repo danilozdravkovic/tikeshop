@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'fontAwesomeSolid';
+    src: url(/fontawesome/webfonts/fa-solid-900.ttf);
+  }
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#counter{
+    width: .7em;
+    height: .7em;
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: .08em;
+}
+#pTagCounter{
+    color:#017dc3;
+    font-size: .6em;
+}
+/* index.html */
+#header{
+    background-color: #f2f2f2;
+}
+#logo img {
+    margin-left: 3em;
+}
+.far{
+    font-family: 'fontAwesomeSolid';
+}
+#listaMeni {
+    font-size: 1.5em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#017dc3;
+}
+#toggle-button{
+    position: absolute;
+    right: 2em;
+    top: 2em;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 2.5em;
+    height: 2em;
+    padding: 0px;
+}
+#toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #017dc3;
+    border-radius: 10px;
+}
+#banner{
+    width: 100%;
+    height: auto;
+}
+.slikaArtikal img{
+    width: 70%;
+    margin: 3em 0em 3em 0em;
+}
+.tekstArtikal h1{
+    font-size: 4em;
+    font-weight: 900;
+}
+.tekstArtikal p {
+    font-size: 1.2em;
+}
+.tekstArtikal a {
+    background-color: #017dc3;
+    color: white;
+    width: 10%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 1em 0em 1em 0em;
+}
+.bg-color-black{
+    background-color: black;
+}
+#newsletter{
+    background-color: #017dc3;
+}
+#formNewsletter{
+    margin: 0px auto;
+}
+#emailIndex{
+    width: 20em;
+    height: 3em;
+}
+#submitNewsletter{
+    width: 8em;
+    height: 3em;
+    margin-left:3em;
+    background-color: #ffe200;
+    color: black;
+    font-weight: 800;
+}
+#emailPTag{
+    color: white;
+}
+#footerContactButton{
+    background-color: #017dc3;
+    color: white;
+    padding: .5em 1em .5em 1em;
+    border-radius: 10px;
+}
+#footer{
+    background-color: #f2f2f2;
+    padding-top: 3em;
+}
+#footer h4{
+    font-weight: 900;
+}
+#usefullLinks a{
+    color: black;
+}
+#usefullLinks a:hover{
+    color:#017dc3;
+}
+
+/* shop.html */
+#sorting{
+    margin-top: 2em;
+    height: 3em;
+    font-weight: 600;
+}
+#filteringBrands p {
+    font-size: 2em;
+}
+#filteringPrice p {
+    font-size: 2em;
+    margin-top: 1em;
+}
+.addToCart{
+    background-color: #017dc3;
+    color: white;
+    border-radius: 15px;
+    padding: .5em;
+    border: none;
+    margin-top: 1em;
+}
+#addItemMsg {
+    color:green;
+    margin-top: 1em;
+}
+
+/* contact.html */
+
+#formContact fieldset{
+    margin-top: 2em;
+}
+#formContact input[type=text],input[type=email],input[type=phone] {
+    background-color: rgb(232, 240, 254);
+}
+#formContact textarea {
+    background-color: rgb(232, 240, 254);
+}
+#formContactSubmit{
+    width: 100%;
+    background-color: #017dc3;
+    color: white;
+    border: none;
+    padding: 1em 0em 1em 0em;
+}
+#succMsg{
+    color:green;
+    margin: 0px auto;
+    font-weight: 600;
+}
+
+/* cart.html */
+#cartDiv{
+ margin:250px 0px 250px 0px;
+}
+.emptyCart a{
+ text-decoration: none;
+ color:#142236;;
+}
+.emptyCart a:hover{
+ text-decoration: none;
+ color:#142236;
+}
+#orderTable img{
+ width:250px;
+ margin:20px 0px 20px 0px;
+}
+.tableAlign{
+ margin:0px auto;
+ width: 98%;
+}
+.profile{
+ display:block;
+ margin-left:50px;
+}
+#totalSum{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#purchase {
+    width: 5em;
+    margin: 5px auto;
+    background-color: #017dc3;
+    color: white;
+    padding: .5em;
+    border-radius: 15px;
+    border: none;
+}
+#removeAll{
+    width: 10em;
+    margin: 5px auto;
+    background-color: #ff3333;
+    color: white;
+    padding: .5em;
+    border-radius: 15px;
+    border: none;
+}
+.btnRemove{
+    color : #ff3333;
+}
+#tableHeader{
+    background-color: #017dc3;
+    color: white;
+}
+#tableHeader>tr>td {
+    padding: 20px;
+}
+.tableProduct {
+    border: 1px solid #e0e0d1;
+}
+
+
+/* RESPOSIVE */
+
+@media (max-width:1000px) {
+    #toggle-button{
+        display: flex;
+    }
+    #meni {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+        width:100%;
+    }
+    #meni ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    #meni li {
+        text-align: center;
+    }
+    .navbar.active{
+        display: flex;
+    }
+}
+@media (max-width:992px) {
+    #newsletter p , h3 {
+        text-align: center;
+    }
+    #newsletter form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #emailIndex{
+        width: 30em;
+        height: 3em;
+    }
+    #submitNewsletter{
+        width: 30em;
+        height: 3em;
+        margin: 3em 0em 3em 0em
+    }
+}
+@media (min-width:992px) {
+    #aboutMe{
+        font-size: 1.5em;
+    }
+}
+@media (max-width:700px) {
+    .name{
+        font-size: .8em;
+    }
+    #orderTable{
+        overflow-x: auto;
+    }
+    
+}
+@media (max-width:520px) {
+    #emailIndex{
+        width: 17em;
+    }
+    #submitNewsletter{
+        width: 17em;
+    }
+}
+@media (max-width:460px){
+    #toggle-button{
+        top: 1.5em;
+        width: 1.8em;
+        height: 1.2em;
+    }
+    .tekstArtikal h1{
+        font-size: 3em;
+    }
+    .tekstArtikal p {
+        font-size: 1.2;
+    }
+    .tekstArtikal a {
+        width: 20%;
+        margin: 0px auto;
+        border-radius: 10px;
+        padding: .60em 0em .60em 0em;
+    }
+}
